@@ -1,0 +1,5 @@
+.git
+terraform
+jenkins
+node_modules
+*.log

@@ -1,0 +1,17 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate*
+terraform/.terraform.lock.hcl
+
+# SSH keys
+padmesh-trend-key
+padmesh-trend-key.pub
+
+# AWS CLI zip
+awscliv2.zip
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
