@@ -47,8 +47,8 @@ pipeline {
                 sh '''
                 echo "Deploying to EKS..."
 
-                kubectl apply -f ~/trend-k8s/deployment.yaml
-                kubectl apply -f ~/trend-k8s/service.yaml
+                kubectl apply -f trend-k8s/deployment.yaml
+                kubectl apply -f trend-k8s/service.yaml
 
                 kubectl rollout status deployment/trend-app -n trend
                 '''
