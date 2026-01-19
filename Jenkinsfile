@@ -22,7 +22,7 @@ pipeline {
             steps {
                 sh '''
                 echo "Building Docker image..."
-                docker build -t $DOCKER_IMAGE .
+                docker build -t padmeshka/trend:latest -f docker/Dockerfile .
                 '''
             }
         }
